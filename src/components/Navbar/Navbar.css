@@ -1,0 +1,16 @@
+.Acolor{
+    /* تدرج من الأسود للأحمر الداكن مع حدود ذهبية */
+background: linear-gradient(90deg, hsl(11, 97%, 49%) 25%, #27231f 100%);
+border-bottom: 2px solid #f6f207; /* خط ذهبي من الأسفل */
+
+}
+
+.Bcolor{
+    color: #E5E4E2; /* نص فضي */
+}
+
+.nav-link {
+    color: #E5E4E2!important; /* لون فضي معدني */
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
