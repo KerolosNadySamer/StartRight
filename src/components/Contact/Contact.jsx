@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Home = () => {
+const Contact = () => {
   return (
     <div className='center-content'>
-      Home Page
+      Contact
     </div>
   )
 }
 
-export default Home
+export default Contact

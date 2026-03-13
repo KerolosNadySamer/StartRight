@@ -1,0 +1,53 @@
+/* الحاوية الرئيسية - هي الوحيدة اللي فيها الألوان الأصلية */
+.pageH {
+    display: flex;
+    flex-direction: column;
+    /* التدرج اللوني الأصلي الخاص بك */
+    background: linear-gradient(90deg, hsl(11, 97%, 49%) 25%, #27231f 100%);
+    height: 100vh; 
+    width: 100%;
+    overflow: hidden; 
+}
+
+/* السايد بار بنفس ألوانك الأصلية */
+.Sidebark {
+    background: linear-gradient(to top, hsl(11, 97%, 49%) 25%, #27231f 100%);
+    border-right: 2px solid #f6f207; 
+}
+
+.SidebarkRight {
+    background: linear-gradient(to top, #27231f 25%, hsl(11, 97%, 49%) 100%);
+    border-left: 2px solid #f6f207; 
+    color: #f6f207;
+}
+
+/* تعديل pageText ليكون شفافاً ولا يغطي ألوان الخلفية */
+.pageText {
+    color: #f6f207; /* اللون الذهبي للنصوص */
+    width: 100%;
+    height: 100%;
+}
+
+/* الكلاس اللي هيظبط الصفحات اللي اتبهدلت (Home, About) */
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh; 
+    font-size: 70px; /* الخط الكبير الأصلي بتاعك */
+    font-weight: bold;
+    text-align: center;
+    color: #f6f207; /* اللون الذهبي */
+}
+
+/* منطقة السكرول للمنتجات */
+.overflow-y-auto {
+    height: calc(100vh - 70px); 
+    overflow-y: auto;
+}
+
+
+
+
+

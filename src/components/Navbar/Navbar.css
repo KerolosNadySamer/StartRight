@@ -1,16 +1,19 @@
 .Acolor{
     /* تدرج من الأسود للأحمر الداكن مع حدود ذهبية */
 background: linear-gradient(90deg, hsl(11, 97%, 49%) 25%, #27231f 100%);
-border-bottom: 2px solid #f6f207; /* خط ذهبي من الأسفل */
-
+border-bottom: 1px solid #f6f207; /* خط ذهبي من الأسفل */
+position: fixed;    /* يجعله ثابتاً بالنسبة للشاشة */
+  top: 0;             /* يلتصق بالأعلى تماماً */
+  width: 100%;        /* يتمدد بعرض الصفحة */
+  z-index: 1000;
 }
 
 .Bcolor{
-    color: #E5E4E2; /* نص فضي */
+    color: hsl(58, 98%, 48%); /* نص فضي */
 }
 
 .nav-link {
-    color: #E5E4E2!important; /* لون فضي معدني */
+    color: hsl(42, 97%, 50%)!important; /* لون فضي معدني */
     text-decoration: none;
     transition: all 0.3s ease;
 }

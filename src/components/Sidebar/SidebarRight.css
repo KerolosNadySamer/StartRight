@@ -1,0 +1,10 @@
+.sidebarRight{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    right: 0px;
+    align-items:center;
+    justify-content:right;
+    font-size: 70px;
+    z-index: 1000;
+}

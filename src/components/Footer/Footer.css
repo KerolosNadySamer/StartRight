@@ -1,0 +1,30 @@
+.Kcolor{
+    /* تدرج من الأسود للأحمر الداكن مع حدود ذهبية */
+background: linear-gradient(90deg, hsl(11, 97%, 49%) 25%, #27231f 100%);
+border-top: 1px solid #f6f207; /* خط ذهبي من الاعلى */
+position: fixed;
+  bottom: 0;          /* يلتصق بأسفل الشاشة */
+  left: 0;
+  width: 100%;        /* يغطي كامل العرض */
+  z-index: 1000;
+}
+
+.Bcolor{
+    color: #E5E4E2; /* نص فضي */
+}
+
+.nav-link {
+    color: #E5E4E2!important; /* لون فضي معدني */
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.Kero{
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+
+}
+
